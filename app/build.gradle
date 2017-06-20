@@ -2,13 +2,18 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 25
+<<<<<<< HEAD
     buildToolsVersion "25.0.2"
+=======
+    buildToolsVersion "25.0.0"
+>>>>>>> cd89322fc2f695053994247365cd58fb7b6fdcf3
     defaultConfig {
         applicationId "com.zhiyu.fire"
         minSdkVersion 19
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
+<<<<<<< HEAD
         jackOptions.enabled = true
         multiDexEnabled true
     }
@@ -18,6 +23,9 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
+=======
+    }
+>>>>>>> cd89322fc2f695053994247365cd58fb7b6fdcf3
     sourceSets {
         main {
             jniLibs.srcDir 'libs'
@@ -36,6 +44,7 @@ android {
     }
 }
 
+<<<<<<< HEAD
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
@@ -58,3 +67,11 @@ dependencies {
     compile 'com.github.bumptech.glide:glide:3.7.0'
     compile 'org.jetbrains:annotations:15.0'
 }
+=======
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:25.1.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile files('libs/BaiduLBS_Android.jar')
+}
+>>>>>>> cd89322fc2f695053994247365cd58fb7b6fdcf3
