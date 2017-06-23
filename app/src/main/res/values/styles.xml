@@ -1,7 +1,6 @@
 <resources>
 
     <!-- Base application theme. -->
-<<<<<<< HEAD
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@android:color/holo_red_dark</item>
@@ -14,13 +13,3 @@
     </style>
 
 </resources>
-=======
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-    </style>
-
-</resources>
->>>>>>> cd89322fc2f695053994247365cd58fb7b6fdcf3

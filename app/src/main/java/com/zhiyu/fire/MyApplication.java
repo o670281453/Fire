@@ -20,7 +20,7 @@ public class MyApplication extends Application {
 
     // 百度定位最后一次定位得到的位置,用于搜索界面
     public BDLocation mLocation;
-
+    public static MyApplication sApp;
     @Override
     public void onCreate() {
         super.onCreate();

@@ -59,10 +59,10 @@ public class SettingFragment extends Fragment {
         tvDepId.setText(depId);
         String rank = "拥有权限：" + String.valueOf(UserRequest.getsUser().getRank());
         tvRank.setText(rank);
-        CardView cvChangePassword = (CardView) view.findViewById(R.id.setting_change_password);
-        CardView cvOpenSource = (CardView) view.findViewById(R.id.setting_open_source);
+        TextView tvChangePassword = (TextView) view.findViewById(R.id.setting_change_password);
+        TextView tvOpenSource = (TextView) view.findViewById(R.id.setting_open_source);
         CardView cvExitLogin = (CardView) view.findViewById(R.id.exit_login_button);
-        cvChangePassword.setOnClickListener(v -> {
+        tvChangePassword.setOnClickListener(v -> {
             if (mActivity.isFragmentExist(MainActivity.CHANGE_PASSWORD)) {
                 mActivity.setFragment(mActivity.getFragment(MainActivity.CHANGE_PASSWORD));
             } else {
@@ -73,7 +73,7 @@ public class SettingFragment extends Fragment {
                 mActivity.setFragment(fragment);
             }
         });
-        cvOpenSource.setOnClickListener(v -> {
+        tvOpenSource.setOnClickListener(v -> {
             if (mActivity.isFragmentExist(MainActivity.OPEN_SOURCE_LICENSE)) {
                 mActivity.setFragment(mActivity.getFragment(MainActivity.OPEN_SOURCE_LICENSE));
             } else {

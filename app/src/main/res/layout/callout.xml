@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#fffffb" 
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/info"
+        android:lines="1"
+        android:ems="8"
+        android:textColor="#666666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/info"
+        android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/record"
+            android:textColor="#666666"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:text="@string/record"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/guide"
+            android:textColor="#666666"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:text="@string/guide"
+            android:textSize="15dp" />
+
+
+</LinearLayout>
